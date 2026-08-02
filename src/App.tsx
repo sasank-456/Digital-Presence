@@ -131,8 +131,21 @@ function App() {
             Layers holds
           </span>
           <span className="block font-normal text-4xl sm:text-7xl md:text-8xl -mt-0 sm:-mt-1" style={{ letterSpacing: '-0.08em' }}>
-            tales of mine
+            tales of <span className="font-playfair italic text-[#e8702a] drop-shadow-[0_0_15px_rgba(232,112,42,0.5)] pr-1">mine</span>
           </span>
+          
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.8, duration: 1 }}
+            className="mt-6 sm:mt-10 flex items-center justify-center gap-4"
+          >
+            <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#e8702a] opacity-50"></div>
+            <span className="font-cormorant italic text-xl sm:text-3xl text-gray-300 font-light tracking-wider">
+              Sasank
+            </span>
+            <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#e8702a] opacity-50"></div>
+          </motion.div>
         </motion.h1>
 
         {/* Scroll Indicator */}
