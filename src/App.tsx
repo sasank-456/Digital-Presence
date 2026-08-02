@@ -141,7 +141,7 @@ function App() {
             className="mt-6 sm:mt-10 flex items-center justify-center gap-4"
           >
             <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#e8702a] opacity-50"></div>
-            <span className="font-cormorant italic text-xl sm:text-3xl text-gray-300 font-light tracking-wider">
+            <span className="font-cormorant italic text-3xl sm:text-5xl text-gray-300 font-light tracking-wider">
               Sasank
             </span>
             <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#e8702a] opacity-50"></div>
