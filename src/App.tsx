@@ -131,7 +131,7 @@ function App() {
             Layers holds
           </span>
           <span className="block font-normal text-4xl sm:text-7xl md:text-8xl -mt-0 sm:-mt-1" style={{ letterSpacing: '-0.08em' }}>
-            tales of mine
+            tales of <span className="font-cormorant italic text-[#e8702a] drop-shadow-[0_0_15px_rgba(232,112,42,0.5)] pr-2">Sasank</span>
           </span>
         </motion.h1>
 
