@@ -133,7 +133,7 @@ function App() {
           <span className="block font-normal text-4xl sm:text-7xl md:text-8xl -mt-0 sm:-mt-1" style={{ letterSpacing: '-0.08em' }}>
             tales of
           </span>
-          <span className="block font-playfair italic font-black text-6xl sm:text-8xl md:text-[11rem] text-[#e8702a] drop-shadow-[0_0_40px_rgba(232,112,42,0.8)] -mt-2 sm:-mt-6 pr-4 tracking-tighter" style={{ lineHeight: 0.8 }}>
+          <span className="block font-cormorant italic font-light text-5xl sm:text-7xl md:text-9xl text-[#e8702a] drop-shadow-[0_0_20px_rgba(232,112,42,0.7)] pr-2" style={{ lineHeight: 0.9 }}>
             Sasank
           </span>
         </motion.h1>
